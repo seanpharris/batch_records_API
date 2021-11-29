@@ -9,10 +9,10 @@ As an simplified representative of applications built at ORNL's OLCF Software Se
 * Django 1.8.19
 * Python 3.8.7
 
-Getting started
+## Getting started
 Dowload the zip file, un-zip it, and have a Python IDE of choice.
 
-Installation
+## Installation
 Open your IDE and load the project file.
 
 We will now run a few commands in the terminal:
@@ -23,7 +23,7 @@ We will now run a few commands in the terminal:
 
 
 
-Usage
+## Usage
 
 Now that our virtual environment is set up,
 run the following command in the terminal:
@@ -34,12 +34,12 @@ In the terminal an API endpoint will be supplied.
 
 To end the program at anypoint within the IDE, hit Ctrl + C.**
 
-Data types to query
+## Data types to query
 - batch_number - Integer
 - submitted_by - ISP 8601 datetime
 - nodes_used - integer
 
-Keywords for querying
+## Keywords for querying
 - filter[submitted_after]= 
 - filter[submitted_before]=
 - filter[min_nodes]=
@@ -52,13 +52,6 @@ add the resource "/batch_jobs/" or click it on the Django REST framework page in
 You may use any combination of filters desired. Use "&" to separate your filters.
 
 Example: /batch_jobs/filter[submitted_after]=2018-02-28T15:00:00+00:00&filter[submitted_before]=2018-03-01T15:00:00+00:00&filter[min_nodes]=2&filter[max_nodes]=20
-
-Roadmap
-
-Moving forward, necessary improvements will be adding security features to the backend using Django Authentication
-and also POST, PUT, PATCH, and DELETE to the API for functionality.
-
-Aesthetic features such as a GUI using JS React will be further out.
 
 #Contact
 
