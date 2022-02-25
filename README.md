@@ -1,7 +1,8 @@
 # Batch Records API
 
 ## About
-As an simplified representative of applications built at ORNL's OLCF Software Services this program will simulate batch records from from work done on a supercomputer. Using the Django framework, the data is retrieved from an Sqlite3 database and output to a single RESTful API endpoint representing individual batch jobs by batch number, submitted date/time, and number of nodes used.
+* This program will simulate batch records of work done on a supercomputer. 
+* The data starts in a CSV and  then is stored and retrieved from an Sqlite3 database and output to a single RESTful API endpoint representing individual batch jobs by batch number, submitted date/time, and number of nodes used.
 
 ## Built with
 * Django REST Framework 0.1.0
